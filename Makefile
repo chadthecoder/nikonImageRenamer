@@ -1,8 +1,8 @@
 all:
-	g++-9 main.cpp -std=c++17 -o renamer
+	g++-9 main.cpp -std=c++17 -o bin/renamer
 
 run:
-	./renamer
+	./bin/renamer
 
 clean:
-	rm renamer
+	rm bin/renamer
